@@ -59,7 +59,7 @@ public class GenericKeywords{
 	}
 	
 	public void enterKeyOnElement(String key, String locatorKey) {
-		  logInfo("Enter value: " + prop.getProperty(key) + "in the locator:" + prop.getProperty(locatorKey));
+		  logInfo("Enter value: " + prop.getProperty(key) + " in the locator:" + prop.getProperty(locatorKey));
 		  getElement(locatorKey).sendKeys(prop.getProperty(key));
 	}
 	
